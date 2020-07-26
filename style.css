@@ -1,0 +1,213 @@
+html, body {
+    padding: 0;
+    color:#667788;
+    font-family: Tahoma, Verdana, Segoe;
+    font-size: 14px;
+    margin: 0
+}
+
+.head{
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.title{
+    font-size: 56px;
+    font-weight: 400;
+}
+
+.title1{
+    margin-top: 10px; 
+    font-size: 28px;
+    font-weight: 200;
+    color: #ccc;
+}
+
+.author{
+    margin-top: 50px; 
+    font-weight: 100;
+    color: #aaa;
+    font-size: 16px;
+}
+  
+canvas {
+    display: block;
+}
+
+.freeFish{
+    cursor: url('./img/freefish.svg'), auto
+}
+
+.electricFish{
+    cursor: url('./img/electric.svg'), auto
+}
+
+.button {
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 8px;
+    margin-right: 5px;
+    margin-left: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #667788;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    width: 150px;
+}
+
+.radio{
+    color:#667788;
+    display: flex;
+    align-items: center;
+    margin-left: 130px; 
+}
+
+.canvasClick{
+    margin-left: 15px; 
+    margin-top: 20px; 
+    font-size: 16px; 
+}
+  
+.radio input[type="radio"]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    position: relative;
+    background-color: #ddd;
+    color: #697787;
+    height: 16px;
+    width: 16px;
+    border: 0;
+    border-radius: 100%;
+    cursor: pointer;     
+    margin-right: 7px;
+    outline: none;
+}
+.radio input[type="radio"]:checked::before{
+    position: absolute;
+    font: 15px/1 'Open Sans', sans-serif;
+    left: 5px;
+    top: 0px;
+    content: '\02143';
+    transform: rotate(40deg);
+}
+
+.slider {
+    position: relative;
+    height: 50px;
+    margin: 8px;
+    margin-left: 15px;
+}
+
+.slider> div {
+    position: absolute;
+    width: 400px;
+    height: 50px;
+}
+
+.slider_part {
+    height: 100%;
+    background-repeat:no-repeat;
+    background-position: 50% 50%;
+}
+
+.slider_split {
+    position: absolute;
+    width: 10px !important;
+    background-image: url(./img/split.png);
+    background-color: #eee;
+    background-repeat:no-repeat;
+	background-position: 50% 50%;
+	cursor: col-resize;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: rgb(240, 255, 255);
+    padding: 30px;
+}
+
+.paraContainer{
+    margin-left: 30px;
+    width: 350px;
+    background: rgb(240, 255, 255);
+}
+
+.ratioDiv{
+    margin: 8px;
+    margin-left: 15px;
+}
+
+.speed_value{
+    padding-right: 4px;
+    margin-right: 4px;
+}
+
+span.speed_value {
+    margin-left: 15px; 
+    width:200px;
+}
+.speed_slider{
+    margin-left: 15px;
+    width: 320px;
+}
+
+.p5Canvas{
+    margin-left: -10px;
+}
+
+.highlight{
+    color: #cc2727;
+}
+
+span {
+    user-select: none;
+}
+
+.chap {
+    margin: 50px auto;
+    width: 100%;
+    max-width: 800px
+}
+
+.chap p {
+    color: black;
+    font-family: Lato,sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 30px;
+}
+
+.intro img {
+    display:block;
+    margin:auto;
+}
+
+.funcList {
+    margin-left: 10px;
+    font-size: 18px !important;
+    line-height: 10px !important;
+}
+
+.introType {
+    font-size: 22px;
+}
+
+.introList {
+    margin-left: 10px;
+    font-size: 18px !important;
+}
+
+.sub {
+    vertical-align: sub;
+    font-size: 12px;
+}
